@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+    <ImageView
+        android:src="@drawable/splash_bg"
+        android:id="@+id/iv_splash_background"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/iv_splash_banner"
+        android:src="@drawable/splash_banner"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/iv_splash_logo"
+        android:src="@drawable/splash_logo"
+        android:layout_above="@+id/tv_splash_copyright"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_splash_copyright"
+        android:text="Copyright © 2020 Huatec. All Rights Reserved"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
